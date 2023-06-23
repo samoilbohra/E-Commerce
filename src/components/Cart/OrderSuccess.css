@@ -1,0 +1,50 @@
+.orderSuccess{
+
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10vmax;
+    height: 50vh;
+}
+
+.orderSuccess>svg{
+    color: tomato;
+    font-size: 5vmax;
+}
+
+.orderSuccess>p{
+    font-size: 2vmax;
+    margin-bottom: 2vmax;
+
+}
+
+.orderSuccess>a{
+    background-color: rgb(22, 20, 20);
+    color: white;
+    padding: 1vmax 3vmax;
+    font: 400 1vmax "Roboto";
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:600px) {
+    .orderSuccess>a{
+        padding: 3vw 6vw;
+        font: 400 3vmax "Roboto";
+        margin: 4vmax;
+      }
+    
+    .orderSuccess>svg{
+        font-size: 20vmax;
+    }
+    .orderSuccess>p{
+        margin : 2vmax;
+        font-size: 5vw;
+    }
+   
+}
